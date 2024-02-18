@@ -1,0 +1,36 @@
+Type=Exe
+Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#..\..\..\..\..\..\Windows\SysWOW64\stdole2.tlb#OLE Automation
+Reference=*\G{1F165598-2F77-41C8-A9F9-EAF00C943F9F}#5.21#0#..\..\..\..\SDK\lib\OpcLabs.EasyOpcClassic.tlb#OPC Labs EasyOPC.NET Library
+Reference=*\G{ECF2E77D-3A90-4FB8-B0E2-F529F0CAE9C9}#5.46#0#..\..\..\..\SDK\lib\OpcLabs.BaseLib.tlb#OPC Labs Base Library Core
+Reference=*\G{1F457B45-A4E0-4A92-928F-D1D1ACB67C54}#5.46#0#..\..\..\..\SDK\lib\OpcLabs.EasyOpcClassicCore.tlb#OPC Labs EasyOPC “Classic” Core Library
+Reference=*\G{A03AA108-3C6B-4CB0-A813-BCBBCD335DAE}#5.48#0#..\..\..\..\SDK\lib\OpcLabs.EasyOpcClassicComponents.tlb#OPC Labs EasyOPC “Classic” Components Library
+Form=Form1.frm
+Startup="Form1"
+Command32=""
+Name="Project1"
+HelpContextID="0"
+CompatibleMode="0"
+MajorVer=1
+MinorVer=0
+RevisionVer=0
+AutoIncrementVer=0
+ServerSupportFiles=0
+VersionCompanyName="CODE Consulting and Development"
+CompilationType=0
+OptimizationType=0
+FavorPentiumPro(tm)=0
+CodeViewDebugInfo=0
+NoAliasing=0
+BoundsCheck=0
+OverflowCheck=0
+FlPointCheck=0
+FDIVCheck=0
+UnroundedFP=0
+StartMode=0
+Unattended=0
+Retained=0
+ThreadPerObject=0
+MaxNumberOfThreads=1
+
+[MS Transaction Server]
+AutoRefresh=1
