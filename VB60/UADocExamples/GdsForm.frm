@@ -67,7 +67,10 @@ End Sub
 REM #region Example _EasyUACertificateManagementClient.GetCertificateStatus.Main
 REM Shows how to check if an application needs to update its certificate.
 REM
-REM Find all latest examples here : https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM Find all latest examples here: https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM OPC client and subscriber examples in Visual Basic on GitHub: https://github.com/OPCLabs/Examples-QuickOPC-VB .
+REM Missing some example? Ask us for it on our Online Forums, https://www.opclabs.com/forum/index ! You do not have to own
+REM a commercial license in order to use Online Forums, and we reply to every post.
 
 Private Sub EasyUACertificateManagementClient_GetCertificateStatus_Main_Command_Click()
     OutputText = ""
@@ -121,7 +124,10 @@ REM #endregion Example _EasyUACertificateManagementClient.GetCertificateStatus.M
 REM #region Example _EasyUAGlobalDiscoveryClient.QueryApplications.Main
 REM Shows how to find client or server applications that meet the specified filters, using the global discovery client.
 REM
-REM Find all latest examples here : https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM Find all latest examples here: https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM OPC client and subscriber examples in Visual Basic on GitHub: https://github.com/OPCLabs/Examples-QuickOPC-VB .
+REM Missing some example? Ask us for it on our Online Forums, https://www.opclabs.com/forum/index ! You do not have to own
+REM a commercial license in order to use Online Forums, and we reply to every post.
 
 Private Sub EasyUAGlobalDiscoveryClient_QueryApplications_Main_Command_Click()
     OutputText = ""
@@ -180,7 +186,10 @@ REM #endregion Example _EasyUAGlobalDiscoveryClient.QueryApplications.Main
 REM #region Example _EasyUAGlobalDiscoveryClient.QueryServers.Main
 REM Shows how to find server applications that meet the specified filters, using the global discovery client.
 REM
-REM Find all latest examples here : https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM Find all latest examples here: https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM OPC client and subscriber examples in Visual Basic on GitHub: https://github.com/OPCLabs/Examples-QuickOPC-VB .
+REM Missing some example? Ask us for it on our Online Forums, https://www.opclabs.com/forum/index ! You do not have to own
+REM a commercial license in order to use Online Forums, and we reply to every post.
 
 Private Sub EasyUAGlobalDiscoveryClient_QueryServers_Main_Command_Click()
     OutputText = ""

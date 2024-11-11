@@ -68,7 +68,10 @@ REM #region Example _IEasyUAClientServerApplication.ObtainNewCertificate.Main
 REM Shows how to obtain a new application certificate from the certificate manager (GDS),
 REM and store it for subsequent usage.
 REM
-REM Find all latest examples here : https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM Find all latest examples here: https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM OPC client and subscriber examples in Visual Basic on GitHub: https://github.com/OPCLabs/Examples-QuickOPC-VB .
+REM Missing some example? Ask us for it on our Online Forums, https://www.opclabs.com/forum/index ! You do not have to own
+REM a commercial license in order to use Online Forums, and we reply to every post.
 
 Private Sub IEasyUAClientServerApplication_ObtainNewCertificate_Main_Command_Click()
     OutputText = ""
@@ -108,7 +111,10 @@ REM #region Example _IEasyUAClientServerApplication.RefreshTrustLists.Main
 REM Shows how to refresh own certificate stores using current trust lists
 REM for the application from the certificate manager.
 REM
-REM Find all latest examples here : https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM Find all latest examples here: https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM OPC client and subscriber examples in Visual Basic on GitHub: https://github.com/OPCLabs/Examples-QuickOPC-VB .
+REM Missing some example? Ask us for it on our Online Forums, https://www.opclabs.com/forum/index ! You do not have to own
+REM a commercial license in order to use Online Forums, and we reply to every post.
 
 Private Sub IEasyUAClientServerApplication_RefreshTrustLists_Main_Command_Click()
     OutputText = ""
@@ -144,7 +150,10 @@ REM #endregion Example _IEasyUAClientServerApplication.RefreshTrustLists.Main
 REM #region Example _IEasyUAClientServerApplication.UpdateGdsRegistration.Main
 REM Shows how to update an application registration in the GDS, keeping its application ID if possible.
 REM
-REM Find all latest examples here : https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM Find all latest examples here: https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM OPC client and subscriber examples in Visual Basic on GitHub: https://github.com/OPCLabs/Examples-QuickOPC-VB .
+REM Missing some example? Ask us for it on our Online Forums, https://www.opclabs.com/forum/index ! You do not have to own
+REM a commercial license in order to use Online Forums, and we reply to every post.
 
 Private Sub IEasyUAClientServerApplication_UpdateGdsRegistration_Main_Command_Click()
     OutputText = ""

@@ -51,7 +51,10 @@ End Sub
 REM #region Example Usage.ReadValue
 REM This example shows how to read a range of values from an array.
 REM
-REM Find all latest examples here : https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM Find all latest examples here: https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM OPC client and subscriber examples in Visual Basic on GitHub: https://github.com/OPCLabs/Examples-QuickOPC-VB .
+REM Missing some example? Ask us for it on our Online Forums, https://www.opclabs.com/forum/index ! You do not have to own
+REM a commercial license in order to use Online Forums, and we reply to every post.
 
 Private Sub Usage_ReadValue_Command_Click()
     OutputText = ""

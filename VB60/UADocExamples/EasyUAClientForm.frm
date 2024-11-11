@@ -139,7 +139,10 @@ REM #region Example BrowseDataNodes.Main
 REM This example shows how to obtain all data nodes (objects and variables) under a given node of the OPC-UA address space.
 REM For each node, it displays its browse name and node ID.
 REM
-REM Find all latest examples here : https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM Find all latest examples here: https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM OPC client and subscriber examples in Visual Basic on GitHub: https://github.com/OPCLabs/Examples-QuickOPC-VB .
+REM Missing some example? Ask us for it on our Online Forums, https://www.opclabs.com/forum/index ! You do not have to own
+REM a commercial license in order to use Online Forums, and we reply to every post.
 
 Public Sub BrowseDataNodes_Main_Command_Click()
     OutputText = ""
@@ -168,7 +171,10 @@ REM #region Example BrowseDataVariables.Main
 REM This example shows how to obtain data variables under the "Server" node
 REM in the address space.
 REM
-REM Find all latest examples here : https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM Find all latest examples here: https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM OPC client and subscriber examples in Visual Basic on GitHub: https://github.com/OPCLabs/Examples-QuickOPC-VB .
+REM Missing some example? Ask us for it on our Online Forums, https://www.opclabs.com/forum/index ! You do not have to own
+REM a commercial license in order to use Online Forums, and we reply to every post.
 
 Public Sub BrowseDataVariables_Main_Command_Click()
     OutputText = ""
@@ -214,7 +220,10 @@ REM #region Example BrowseObjects.Main
 REM This example shows how to obtain objects under the "Server" node
 REM in the address space.
 REM
-REM Find all latest examples here : https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM Find all latest examples here: https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM OPC client and subscriber examples in Visual Basic on GitHub: https://github.com/OPCLabs/Examples-QuickOPC-VB .
+REM Missing some example? Ask us for it on our Online Forums, https://www.opclabs.com/forum/index ! You do not have to own
+REM a commercial license in order to use Online Forums, and we reply to every post.
 
 Public Sub BrowseObjects_Main_Command_Click()
     OutputText = ""
@@ -276,7 +285,10 @@ REM #region Example BrowseProperties.Main
 REM This example shows how to obtain properties under the "Server" node
 REM in the address space.
 REM
-REM Find all latest examples here : https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM Find all latest examples here: https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM OPC client and subscriber examples in Visual Basic on GitHub: https://github.com/OPCLabs/Examples-QuickOPC-VB .
+REM Missing some example? Ask us for it on our Online Forums, https://www.opclabs.com/forum/index ! You do not have to own
+REM a commercial license in order to use Online Forums, and we reply to every post.
 
 Public Sub BrowseProperties_Main_Command_Click()
     OutputText = ""
@@ -335,7 +347,10 @@ REM #region Example BrowseMethods.Main
 REM This example shows how to obtain all method nodes under a given node of the OPC-UA address space.
 REM For each node, it displays its browse name and node ID.
 REM
-REM Find all latest examples here : https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM Find all latest examples here: https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM OPC client and subscriber examples in Visual Basic on GitHub: https://github.com/OPCLabs/Examples-QuickOPC-VB .
+REM Missing some example? Ask us for it on our Online Forums, https://www.opclabs.com/forum/index ! You do not have to own
+REM a commercial license in order to use Online Forums, and we reply to every post.
 
 Public Sub BrowseMethods_Main_Command_Click()
     OutputText = ""
@@ -364,7 +379,10 @@ REM #region Example Browse.Main
 REM This example shows how to obtain nodes under a given node of the OPC-UA address space.
 REM For each node, it displays its browse name and node ID.
 REM
-REM Find all latest examples here : https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM Find all latest examples here: https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM OPC client and subscriber examples in Visual Basic on GitHub: https://github.com/OPCLabs/Examples-QuickOPC-VB .
+REM Missing some example? Ask us for it on our Online Forums, https://www.opclabs.com/forum/index ! You do not have to own
+REM a commercial license in order to use Online Forums, and we reply to every post.
 
 Public Sub Browse_Main_Command_Click()
     OutputText = ""
@@ -403,7 +421,10 @@ REM #endregion Example Browse.Main
 REM #region Example CallMethod.Main
 REM This example shows how to call a single method, and pass arguments to and from it.
 REM
-REM Find all latest examples here : https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM Find all latest examples here: https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM OPC client and subscriber examples in Visual Basic on GitHub: https://github.com/OPCLabs/Examples-QuickOPC-VB .
+REM Missing some example? Ask us for it on our Online Forums, https://www.opclabs.com/forum/index ! You do not have to own
+REM a commercial license in order to use Online Forums, and we reply to every post.
 
 Public Sub CallMethod_Main_Command_Click()
     OutputText = ""
@@ -465,7 +486,10 @@ REM #endregion Example CallMethod.Main
 REM #region Example CallMultipleMethods.Main
 REM This example shows how to call multiple methods, and pass arguments to and from them.
 REM
-REM Find all latest examples here : https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM Find all latest examples here: https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM OPC client and subscriber examples in Visual Basic on GitHub: https://github.com/OPCLabs/Examples-QuickOPC-VB .
+REM Missing some example? Ask us for it on our Online Forums, https://www.opclabs.com/forum/index ! You do not have to own
+REM a commercial license in order to use Online Forums, and we reply to every post.
 
 Public Sub CallMultipleMethods_Main_Command_Click()
     OutputText = ""
@@ -576,7 +600,10 @@ REM #region Example ChangeMonitoredItemSubscription.Main
 REM This example shows how to change the sampling rate of an existing monitored
 REM item subscription.
 REM
-REM Find all latest examples here : https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM Find all latest examples here: https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM OPC client and subscriber examples in Visual Basic on GitHub: https://github.com/OPCLabs/Examples-QuickOPC-VB .
+REM Missing some example? Ask us for it on our Online Forums, https://www.opclabs.com/forum/index ! You do not have to own
+REM a commercial license in order to use Online Forums, and we reply to every post.
 
 ' The client object, with events
 'Public WithEvents Client5 As EasyUAClient
@@ -622,7 +649,10 @@ REM #region Example DiscoverGlobalServers.Main
 REM This example shows how to obtain information about OPC UA servers from the Global Discovery Server (GDS).
 REM The result is flat, i.e. each discovery URL is returned in separate element, with possible repetition of the servers.
 REM
-REM Find all latest examples here : https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM Find all latest examples here: https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM OPC client and subscriber examples in Visual Basic on GitHub: https://github.com/OPCLabs/Examples-QuickOPC-VB .
+REM Missing some example? Ask us for it on our Online Forums, https://www.opclabs.com/forum/index ! You do not have to own
+REM a commercial license in order to use Online Forums, and we reply to every post.
 
 Public Sub DiscoverGlobalServers_Main_Command_Click()
     OutputText = ""
@@ -653,7 +683,10 @@ REM #endregion Example DiscoverGlobalServers.Main
 REM #region Example DiscoverLocalServers.Main
 REM This example shows how to obtain application URLs of all OPC Unified Architecture servers on the specified host.
 REM
-REM Find all latest examples here : https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM Find all latest examples here: https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM OPC client and subscriber examples in Visual Basic on GitHub: https://github.com/OPCLabs/Examples-QuickOPC-VB .
+REM Missing some example? Ask us for it on our Online Forums, https://www.opclabs.com/forum/index ! You do not have to own
+REM a commercial license in order to use Online Forums, and we reply to every post.
 
 Public Sub DiscoverLocalServers_Main_Command_Click()
     OutputText = ""
@@ -682,7 +715,10 @@ REM #endregion Example DiscoverLocalServers.Main
 REM #region Example DiscoverNetworkServers.Main
 REM This example shows how to obtain information about OPC UA servers available on the network.
 REM
-REM Find all latest examples here : https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM Find all latest examples here: https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM OPC client and subscriber examples in Visual Basic on GitHub: https://github.com/OPCLabs/Examples-QuickOPC-VB .
+REM Missing some example? Ask us for it on our Online Forums, https://www.opclabs.com/forum/index ! You do not have to own
+REM a commercial license in order to use Online Forums, and we reply to every post.
 
 Public Sub DiscoverNetworkServers_Main_Command_Click()
     OutputText = ""
@@ -713,7 +749,10 @@ REM #endregion Example DiscoverNetworkServers.Main
 REM #region Example FindLocalApplications.Main
 REM This example shows how to obtain application URLs of all OPC Unified Architecture servers, using specified discovery URI strings.
 REM
-REM Find all latest examples here : https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM Find all latest examples here: https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM OPC client and subscriber examples in Visual Basic on GitHub: https://github.com/OPCLabs/Examples-QuickOPC-VB .
+REM Missing some example? Ask us for it on our Online Forums, https://www.opclabs.com/forum/index ! You do not have to own
+REM a commercial license in order to use Online Forums, and we reply to every post.
 
 Public Sub FindLocalApplications_Main_Command_Click()
     OutputText = ""
@@ -747,7 +786,10 @@ REM #endregion Example FindLocalApplications.Main
 REM #region Example PullDataChangeNotification.Main
 REM This example shows how to subscribe to changes of a single monitored item, pull events, and display each change.
 REM
-REM Find all latest examples here : https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM Find all latest examples here: https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM OPC client and subscriber examples in Visual Basic on GitHub: https://github.com/OPCLabs/Examples-QuickOPC-VB .
+REM Missing some example? Ask us for it on our Online Forums, https://www.opclabs.com/forum/index ! You do not have to own
+REM a commercial license in order to use Online Forums, and we reply to every post.
 
 Public Sub PullDataChangeNotification_Main_Command_Click()
     OutputText = ""
@@ -785,7 +827,10 @@ REM #endregion Example PullDataChangeNotification.Main
 REM #region Example Read.Main
 REM This example shows how to read and display data of an attribute (value, timestamps, and status code).
 REM
-REM Find all latest examples here : https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM Find all latest examples here: https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM OPC client and subscriber examples in Visual Basic on GitHub: https://github.com/OPCLabs/Examples-QuickOPC-VB .
+REM Missing some example? Ask us for it on our Online Forums, https://www.opclabs.com/forum/index ! You do not have to own
+REM a commercial license in order to use Online Forums, and we reply to every post.
 
 Public Sub Read_Main_Command_Click()
     OutputText = ""
@@ -823,7 +868,10 @@ REM #region Example ReadMultiple.BrowsePath
 REM This example shows how to read the attributes of 4 OPC-UA nodes specified
 REM by browse paths at once, and display the results.
 REM
-REM Find all latest examples here : https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM Find all latest examples here: https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM OPC client and subscriber examples in Visual Basic on GitHub: https://github.com/OPCLabs/Examples-QuickOPC-VB .
+REM Missing some example? Ask us for it on our Online Forums, https://www.opclabs.com/forum/index ! You do not have to own
+REM a commercial license in order to use Online Forums, and we reply to every post.
 
 Public Sub ReadMultiple_BrowsePath_Command_Click()
     OutputText = ""
@@ -886,7 +934,10 @@ REM #region Example ReadMultiple.Main
 REM This example shows how to read the attributes of 4 OPC-UA nodes at once, and
 REM display the results.
 REM
-REM Find all latest examples here : https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM Find all latest examples here: https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM OPC client and subscriber examples in Visual Basic on GitHub: https://github.com/OPCLabs/Examples-QuickOPC-VB .
+REM Missing some example? Ask us for it on our Online Forums, https://www.opclabs.com/forum/index ! You do not have to own
+REM a commercial license in order to use Online Forums, and we reply to every post.
 
 Public Sub ReadMultiple_Main_Command_Click()
     OutputText = ""
@@ -933,10 +984,13 @@ End Sub
 REM #endregion Example ReadMultiple.Main
 
 REM #region Example ReadMultipleValues.DataType
-REM This example shows how to read the Value attributes of 3 different nodes at once. Using the same method, it is also possible
+REM This example shows how to read the DataType attributes of 3 different nodes at once. Using the same method, it is also possible
 REM to read multiple attributes of the same node.
 REM
-REM Find all latest examples here : https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM Find all latest examples here: https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM OPC client and subscriber examples in Visual Basic on GitHub: https://github.com/OPCLabs/Examples-QuickOPC-VB .
+REM Missing some example? Ask us for it on our Online Forums, https://www.opclabs.com/forum/index ! You do not have to own
+REM a commercial license in order to use Online Forums, and we reply to every post.
 
 Public Sub ReadMultipleValues_DataType_Command_Click()
     OutputText = ""
@@ -1012,7 +1066,10 @@ REM #region Example ReadMultipleValues.Main
 REM This example shows how to read the Value attributes of 3 different nodes at once. Using the same method, it is also possible
 REM to read multiple attributes of the same node.
 REM
-REM Find all latest examples here : https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM Find all latest examples here: https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM OPC client and subscriber examples in Visual Basic on GitHub: https://github.com/OPCLabs/Examples-QuickOPC-VB .
+REM Missing some example? Ask us for it on our Online Forums, https://www.opclabs.com/forum/index ! You do not have to own
+REM a commercial license in order to use Online Forums, and we reply to every post.
 
 Public Sub ReadMultipleValues_Main_Command_Click()
     OutputText = ""
@@ -1062,7 +1119,10 @@ REM #endregion Example ReadMultipleValues.Main
 REM #region Example ReadValue.Main
 REM This example shows how to read value of a single node, and display it.
 REM
-REM Find all latest examples here : https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM Find all latest examples here: https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM OPC client and subscriber examples in Visual Basic on GitHub: https://github.com/OPCLabs/Examples-QuickOPC-VB .
+REM Missing some example? Ask us for it on our Online Forums, https://www.opclabs.com/forum/index ! You do not have to own
+REM a commercial license in order to use Online Forums, and we reply to every post.
 
 Public Sub ReadValue_Main_Command_Click()
     OutputText = ""
@@ -1088,7 +1148,10 @@ REM #endregion Example ReadValue.Main
 REM #region Example SubscribeDataChange.Filter
 REM This example shows how to subscribe to changes of a monitored item with data change filter.
 REM
-REM Find all latest examples here : https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM Find all latest examples here: https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM OPC client and subscriber examples in Visual Basic on GitHub: https://github.com/OPCLabs/Examples-QuickOPC-VB .
+REM Missing some example? Ask us for it on our Online Forums, https://www.opclabs.com/forum/index ! You do not have to own
+REM a commercial license in order to use Online Forums, and we reply to every post.
 
 ' The client object, with events
 'Public WithEvents Client3 As EasyUAClient
@@ -1149,7 +1212,10 @@ REM #endregion Example SubscribeDataChange.Filter
 REM #region Example SubscribeDataChange.Main
 REM This example shows how to subscribe to changes of a single monitored item and display each change.
 REM
-REM Find all latest examples here : https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM Find all latest examples here: https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM OPC client and subscriber examples in Visual Basic on GitHub: https://github.com/OPCLabs/Examples-QuickOPC-VB .
+REM Missing some example? Ask us for it on our Online Forums, https://www.opclabs.com/forum/index ! You do not have to own
+REM a commercial license in order to use Online Forums, and we reply to every post.
 
 ' The client object, with events
 'Public WithEvents Client1 As EasyUAClient
@@ -1189,7 +1255,10 @@ REM #region Example SubscribeMultipleMonitoredItems.Filter
 REM This example shows how to subscribe to changes of multiple monitored items
 REM and use a data change filter.
 REM
-REM Find all latest examples here : https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM Find all latest examples here: https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM OPC client and subscriber examples in Visual Basic on GitHub: https://github.com/OPCLabs/Examples-QuickOPC-VB .
+REM Missing some example? Ask us for it on our Online Forums, https://www.opclabs.com/forum/index ! You do not have to own
+REM a commercial license in order to use Online Forums, and we reply to every post.
 
 ' The client object, with events
 'Public WithEvents Client4 As EasyUAClient
@@ -1267,7 +1336,10 @@ REM #region Example SubscribeMultipleMonitoredItems.Main
 REM This example shows how to subscribe to changes of multiple monitored items and display the value of the monitored item with
 REM each change.
 REM
-REM Find all latest examples here : https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM Find all latest examples here: https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM OPC client and subscriber examples in Visual Basic on GitHub: https://github.com/OPCLabs/Examples-QuickOPC-VB .
+REM Missing some example? Ask us for it on our Online Forums, https://www.opclabs.com/forum/index ! You do not have to own
+REM a commercial license in order to use Online Forums, and we reply to every post.
 
 ' The client object, with events
 'Public WithEvents Client2 As EasyUAClient
@@ -1338,7 +1410,10 @@ REM This example shows how to subscribe to changes of multiple monitored items
 REM and display each change, identifying the different subscriptions by an
 REM integer.
 REM
-REM Find all latest examples here : https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM Find all latest examples here: https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM OPC client and subscriber examples in Visual Basic on GitHub: https://github.com/OPCLabs/Examples-QuickOPC-VB .
+REM Missing some example? Ask us for it on our Online Forums, https://www.opclabs.com/forum/index ! You do not have to own
+REM a commercial license in order to use Online Forums, and we reply to every post.
 
 ' The client object, with events
 'Public WithEvents Client6 As EasyUAClient
@@ -1408,7 +1483,10 @@ REM #endregion Example SubscribeMultipleMonitoredItems.StateAsInteger
 REM #region Example UnsubscribeAllMonitoredItems.Main
 REM This example shows how to unsubscribe from changes of all items.
 REM
-REM Find all latest examples here : https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM Find all latest examples here: https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM OPC client and subscriber examples in Visual Basic on GitHub: https://github.com/OPCLabs/Examples-QuickOPC-VB .
+REM Missing some example? Ask us for it on our Online Forums, https://www.opclabs.com/forum/index ! You do not have to own
+REM a commercial license in order to use Online Forums, and we reply to every post.
 
 ' The client object, with events
 'Public WithEvents Client7 As EasyUAClient
@@ -1474,7 +1552,10 @@ REM #region Example UnsubscribeMultipleMonitoredItems.Some
 REM This example shows how to unsubscribe from changes of just some monitored
 REM items.
 REM
-REM Find all latest examples here : https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM Find all latest examples here: https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM OPC client and subscriber examples in Visual Basic on GitHub: https://github.com/OPCLabs/Examples-QuickOPC-VB .
+REM Missing some example? Ask us for it on our Online Forums, https://www.opclabs.com/forum/index ! You do not have to own
+REM a commercial license in order to use Online Forums, and we reply to every post.
 
 ' The client object, with events
 'Public WithEvents Client8 As EasyUAClient
@@ -1560,7 +1641,10 @@ REM #region Example Write.Main
 REM This example shows how to write data (a value, timestamps and status code)
 REM into a single attribute of a node.
 REM
-REM Find all latest examples here : https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM Find all latest examples here: https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM OPC client and subscriber examples in Visual Basic on GitHub: https://github.com/OPCLabs/Examples-QuickOPC-VB .
+REM Missing some example? Ask us for it on our Online Forums, https://www.opclabs.com/forum/index ! You do not have to own
+REM a commercial license in order to use Online Forums, and we reply to every post.
 
 Public Sub Write_Main_Command_Click()
     OutputText = ""
@@ -1593,7 +1677,10 @@ REM #region Example WriteMultipleValues.TestSuccess
 REM This example shows how to write values into 3 nodes at once, test for success of each write and display the exception
 REM message in case of failure.
 REM
-REM Find all latest examples here : https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM Find all latest examples here: https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM OPC client and subscriber examples in Visual Basic on GitHub: https://github.com/OPCLabs/Examples-QuickOPC-VB .
+REM Missing some example? Ask us for it on our Online Forums, https://www.opclabs.com/forum/index ! You do not have to own
+REM a commercial license in order to use Online Forums, and we reply to every post.
 
 Public Sub WriteMultipleValues_TestSuccess_Command_Click()
     OutputText = ""
@@ -1648,7 +1735,10 @@ REM - Writing with an explicitly specified type is more efficient.
 REM
 REM Alternative ways of specifying the type are using the ValueType or ValueTypeFullName properties.
 REM
-REM Find all latest examples here : https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM Find all latest examples here: https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM OPC client and subscriber examples in Visual Basic on GitHub: https://github.com/OPCLabs/Examples-QuickOPC-VB .
+REM Missing some example? Ask us for it on our Online Forums, https://www.opclabs.com/forum/index ! You do not have to own
+REM a commercial license in order to use Online Forums, and we reply to every post.
 
 Public Sub WriteMultipleValues_ValueTypeCode_Command_Click()
     OutputText = ""
@@ -1710,7 +1800,10 @@ REM - Writing with an explicitly specified type is more efficient.
 REM
 REM Alternative ways of specifying the type are using the ValueType or ValueTypeCode properties.
 REM
-REM Find all latest examples here : https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM Find all latest examples here: https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM OPC client and subscriber examples in Visual Basic on GitHub: https://github.com/OPCLabs/Examples-QuickOPC-VB .
+REM Missing some example? Ask us for it on our Online Forums, https://www.opclabs.com/forum/index ! You do not have to own
+REM a commercial license in order to use Online Forums, and we reply to every post.
 
 Public Sub WriteMultipleValues_ValueTypeFullName_Command_Click()
     OutputText = ""
@@ -1760,7 +1853,10 @@ REM #endregion Example WriteMultipleValues.ValueTypeFullName
 REM #region Example WriteValue.ByteString
 REM This example shows how to write a value into a single node that is of type ByteString.
 REM
-REM Find all latest examples here : https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM Find all latest examples here: https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM OPC client and subscriber examples in Visual Basic on GitHub: https://github.com/OPCLabs/Examples-QuickOPC-VB .
+REM Missing some example? Ask us for it on our Online Forums, https://www.opclabs.com/forum/index ! You do not have to own
+REM a commercial license in order to use Online Forums, and we reply to every post.
 
 Public Sub WriteValue_ByteString_Command_Click()
     OutputText = ""
@@ -1790,7 +1886,10 @@ REM #endregion Example WriteValue.ByteString
 REM #region Example WriteValue.Main
 REM This example shows how to write a value into a single node.
 REM
-REM Find all latest examples here : https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM Find all latest examples here: https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM OPC client and subscriber examples in Visual Basic on GitHub: https://github.com/OPCLabs/Examples-QuickOPC-VB .
+REM Missing some example? Ask us for it on our Online Forums, https://www.opclabs.com/forum/index ! You do not have to own
+REM a commercial license in order to use Online Forums, and we reply to every post.
 
 Public Sub WriteValue_Main_Command_Click()
     OutputText = ""
@@ -1821,7 +1920,10 @@ REM
 REM TypeCode is easy to use, but it does not cover all possible types. It is also possible to specify the .NET Type, using
 REM a different overload of the WriteValue method.
 REM
-REM Find all latest examples here : https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM Find all latest examples here: https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM OPC client and subscriber examples in Visual Basic on GitHub: https://github.com/OPCLabs/Examples-QuickOPC-VB .
+REM Missing some example? Ask us for it on our Online Forums, https://www.opclabs.com/forum/index ! You do not have to own
+REM a commercial license in order to use Online Forums, and we reply to every post.
 
 Public Sub WriteValue_TypeCode_Command_Click()
     OutputText = ""

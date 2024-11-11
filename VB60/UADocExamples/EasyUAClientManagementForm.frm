@@ -55,7 +55,10 @@ End Sub
 REM #region Example LogEntry.Main
 REM This example demonstrates the loggable entries originating in the OPC-UA client engine and the EasyUAClient component.
 REM
-REM Find all latest examples here : https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM Find all latest examples here: https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM OPC client and subscriber examples in Visual Basic on GitHub: https://github.com/OPCLabs/Examples-QuickOPC-VB .
+REM Missing some example? Ask us for it on our Online Forums, https://www.opclabs.com/forum/index ! You do not have to own
+REM a commercial license in order to use Online Forums, and we reply to every post.
 
 ' The management object allows access to static behavior - here, the shared LogEntry event.
 'Public WithEvents ClientManagement1 As EasyUAClientManagement

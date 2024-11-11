@@ -61,9 +61,12 @@ Public Sub Pause(Optional milliseconds As Long)
 End Sub
 
 REM #region Example ApplicationName.Main
-REM This example demonstrates how to set the application name for the client certificate.
+REM This example demonstrates how to set the application name for the application instance certificate.
 REM
-REM Find all latest examples here : https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM Find all latest examples here: https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM OPC client and subscriber examples in Visual Basic on GitHub: https://github.com/OPCLabs/Examples-QuickOPC-VB .
+REM Missing some example? Ask us for it on our Online Forums, https://www.opclabs.com/forum/index ! You do not have to own
+REM a commercial license in order to use Online Forums, and we reply to every post.
 
 Private Sub ApplicationName_Main_Command_Click()
     OutputText = ""
@@ -76,6 +79,7 @@ Private Sub ApplicationName_Main_Command_Click()
     Application.ApplicationParameters.ApplicationManifest.applicationName = "QuickOPC - VB6 example application"
 
     ' Do something - invoke an OPC read, to trigger some loggable entries.
+    ' If you are doing server development: Instantiate and start the server here, instead of invoking the client.
     Dim client As New EasyUAClient
     On Error Resume Next
     Dim value As Variant
@@ -105,10 +109,13 @@ End Sub
 REM #endregion Example ApplicationName.Main
 
 REM #region Example InstanceOwnStorePath.PlatformSpecific
-REM  This example demonstrates how to place the client certificate
+REM  This example demonstrates how to place the application instance certificate
 REM in the platform-specific (Windows, Linux, ...) certificate store.
 REM
-REM Find all latest examples here : https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM Find all latest examples here: https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM OPC client and subscriber examples in Visual Basic on GitHub: https://github.com/OPCLabs/Examples-QuickOPC-VB .
+REM Missing some example? Ask us for it on our Online Forums, https://www.opclabs.com/forum/index ! You do not have to own
+REM a commercial license in order to use Online Forums, and we reply to every post.
 
 Private Sub InstanceOwnStorePath_PlatformSpecific_Command_Click()
     OutputText = ""
@@ -121,6 +128,7 @@ Private Sub InstanceOwnStorePath_PlatformSpecific_Command_Click()
     Application.ApplicationParameters.ApplicationManifest.InstanceOwnStorePath = "CurrentUser\My"
 
     ' Do something - invoke an OPC read, to trigger creation of the certificate.
+    ' If you are doing server development: Instantiate and start the server here, instead of invoking the client.
     Dim client As New EasyUAClient
     On Error Resume Next
     Dim value As Variant

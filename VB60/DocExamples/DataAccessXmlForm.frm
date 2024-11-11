@@ -110,7 +110,10 @@ End Sub
 Rem #region Example BrowseNodes.RecursiveXml
 Rem This example shows how to recursively browse the nodes in the OPC XML-DA address space.
 Rem
-Rem Find all latest examples here : https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM Find all latest examples here: https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM OPC client and subscriber examples in Visual Basic on GitHub: https://github.com/OPCLabs/Examples-QuickOPC-VB .
+REM Missing some example? Ask us for it on our Online Forums, https://www.opclabs.com/forum/index ! You do not have to own
+REM a commercial license in order to use Online Forums, and we reply to every post.
 
 'Public branchCount As Integer
 'Public leafCount As Integer
@@ -171,7 +174,10 @@ Rem #endregion Example BrowseNodes.RecursiveXml
 Rem #region Example ChangeItemSubscription.MainXml
 Rem This example shows how change the update rate of an existing OPC XML-DA subscription.
 Rem
-Rem Find all latest examples here : https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM Find all latest examples here: https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM OPC client and subscriber examples in Visual Basic on GitHub: https://github.com/OPCLabs/Examples-QuickOPC-VB .
+REM Missing some example? Ask us for it on our Online Forums, https://www.opclabs.com/forum/index ! You do not have to own
+REM a commercial license in order to use Online Forums, and we reply to every post.
 
 ' The client object, with events
 'Public WithEvents Client1 As EasyDAClient
@@ -224,7 +230,10 @@ Rem #endregion Example ChangeItemSubscription.MainXml
 Rem #region Example GetMultiplePropertyValues.DataTypeXml
 Rem This example shows how to obtain a data type of all OPC XML-DA items under a branch.
 Rem
-Rem Find all latest examples here : https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM Find all latest examples here: https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM OPC client and subscriber examples in Visual Basic on GitHub: https://github.com/OPCLabs/Examples-QuickOPC-VB .
+REM Missing some example? Ask us for it on our Online Forums, https://www.opclabs.com/forum/index ! You do not have to own
+REM a commercial license in order to use Online Forums, and we reply to every post.
 
 Private Sub GetMultiplePropertyValues_DataTypeXml_Command_Click()
     OutputText = ""
@@ -294,7 +303,10 @@ Rem #endregion Example GetMultiplePropertyValues.DataTypeXml
 Rem #region Example PullItemChanged.MainXml
 Rem This example shows how to subscribe to OPC XML-DA item changes and obtain the events by pulling them.
 Rem
-Rem Find all latest examples here : https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM Find all latest examples here: https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM OPC client and subscriber examples in Visual Basic on GitHub: https://github.com/OPCLabs/Examples-QuickOPC-VB .
+REM Missing some example? Ask us for it on our Online Forums, https://www.opclabs.com/forum/index ! You do not have to own
+REM a commercial license in order to use Online Forums, and we reply to every post.
 
 Private Sub PullItemChanged_MainXml_Command_Click()
     OutputText = ""
@@ -341,7 +353,10 @@ Rem #region Example ReadMultipleItems.MainXml
 Rem This example shows how to read 4 items from an OPC XML-DA server at once, and display their values, timestamps
 Rem and qualities.
 Rem
-Rem Find all latest examples here : https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM Find all latest examples here: https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM OPC client and subscriber examples in Visual Basic on GitHub: https://github.com/OPCLabs/Examples-QuickOPC-VB .
+REM Missing some example? Ask us for it on our Online Forums, https://www.opclabs.com/forum/index ! You do not have to own
+REM a commercial license in order to use Online Forums, and we reply to every post.
 
 Private Sub ReadMultipleItems_MainXml_Command_Click()
     OutputText = ""
@@ -389,7 +404,10 @@ Rem #endregion Example ReadMultipleItems.MainXml
 Rem #region Example SubscribeItem.MainXml
 Rem This example shows how to subscribe to changes of a single OPC XML-DA item and display the value of the item with each change.
 Rem
-Rem Find all latest examples here : https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM Find all latest examples here: https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM OPC client and subscriber examples in Visual Basic on GitHub: https://github.com/OPCLabs/Examples-QuickOPC-VB .
+REM Missing some example? Ask us for it on our Online Forums, https://www.opclabs.com/forum/index ! You do not have to own
+REM a commercial license in order to use Online Forums, and we reply to every post.
 
 ' The client object, with events
 'Public WithEvents Client2 As EasyDAClient
@@ -437,7 +455,10 @@ Rem #endregion Example SubscribeItem.MainXml
 Rem #region Example WriteItemValue.MainXml
 Rem This example shows how to write a value into a single OPC XML-DA item.
 Rem
-Rem Find all latest examples here : https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM Find all latest examples here: https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+REM OPC client and subscriber examples in Visual Basic on GitHub: https://github.com/OPCLabs/Examples-QuickOPC-VB .
+REM Missing some example? Ask us for it on our Online Forums, https://www.opclabs.com/forum/index ! You do not have to own
+REM a commercial license in order to use Online Forums, and we reply to every post.
 
 Private Sub WriteItemValue_MainXml_Command_Click()
     OutputText = ""
