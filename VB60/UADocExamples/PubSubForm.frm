@@ -1080,7 +1080,7 @@ Private Sub EasyUASubscriber_SubscribeDataSet_Secure_Command_Click()
     comunicationParameters.SecurityKeyServiceTemplate.UrlString = "opc.tcp://localhost:48010"
     ' Specifies the security mode that will be used to connect to the SKS.
     Dim endpointSelectionPolicy As New UAEndpointSelectionPolicy
-    endpointSelectionPolicy.AllowedMessageSecurityModes = UAMessageSecurityModes_SecuritySignAndEncrypt
+    endpointSelectionPolicy.CommunicationProfile.MessageSecurityModes = UAMessageSecurityModes_SecuritySignAndEncrypt
     Set comunicationParameters.SecurityKeyServiceTemplate.endpointSelectionPolicy = endpointSelectionPolicy ' UAMessageSecurityModes_SecuritySignAndEncrypt
     ' Specifies the user name and password used for "logging in" to the SKS.
     comunicationParameters.SecurityKeyServiceTemplate.UserIdentity.UserNameTokenInfo.UserName = "root"

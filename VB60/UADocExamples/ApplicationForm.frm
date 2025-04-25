@@ -25,9 +25,9 @@ Begin VB.Form ApplicationForm
       Top             =   600
       Width           =   4215
    End
-   Begin VB.CommandButton IEasyUAClientServerApplication_ObtainNewCertificate_Main_Command 
-      Caption         =   "_IEasyUAClientServerApplication.ObtainNewCertificate.Main"
-      Height          =   375
+   Begin VB.CommandButton IEasyUAClientServerApplication_ObtainNewCertificatePack_Main_Command 
+      Caption = "_IEasyUAClientServerApplication.ObtainNewCertificatePack.Main"
+Height          =   375
       Left            =   120
       TabIndex        =   1
       Top             =   120
@@ -64,8 +64,8 @@ Public Sub Pause(Optional milliseconds As Long)
     While GetTickCount < endTickCount: Sleep 1: DoEvents: Wend
 End Sub
 
-REM #region Example _IEasyUAClientServerApplication.ObtainNewCertificate.Main
-REM Shows how to obtain a new application certificate from the certificate manager (GDS),
+REM #region Example _IEasyUAClientServerApplication.ObtainNewCertificatePack.Main
+REM Shows how to obtain a new application certificate pack from the certificate manager (GDS),
 REM and store it for subsequent usage.
 REM
 REM Find all latest examples here: https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
@@ -73,28 +73,25 @@ REM OPC client and subscriber examples in Visual Basic on GitHub: https://github
 REM Missing some example? Ask us for it on our Online Forums, https://www.opclabs.com/forum/index ! You do not have to own
 REM a commercial license in order to use Online Forums, and we reply to every post.
 
-Private Sub IEasyUAClientServerApplication_ObtainNewCertificate_Main_Command_Click()
+Private Sub IEasyUAClientServerApplication_ObtainNewCertificatePack_Main_Command_Click()
     OutputText = ""
-    
+
     ' Define which GDS we will work with.
     Dim gdsEndpointDescriptor As New UAEndpointDescriptor
     gdsEndpointDescriptor.UrlString = "opc.tcp://opcua.demo-this.com:58810/GlobalDiscoveryServer"
     gdsEndpointDescriptor.UserIdentity.UserNameTokenInfo.UserName = "appadmin"
     gdsEndpointDescriptor.UserIdentity.UserNameTokenInfo.Password = "demo"
-    
+
     ' Obtain the application interface
     Dim Application As New EasyUAApplication
-    
+
     ' Display which application we are about to work with.
     OutputText = OutputText & "Application URI string: " & Application.GetApplicationElement.applicationUriString & vbCrLf
 
-    ' Obtain a new application certificate from the certificate manager (GDS), and store it for subsequent usage.
-    Dim arguments As New UAObtainCertificateArguments
-    Set arguments.Parameters.gdsEndpointDescriptor = gdsEndpointDescriptor
-    
+    ' Obtain a new application certificate pack from the certificate manager (GDS), and store it for subsequent usage.
     On Error Resume Next
-    Dim certificate As PkiCertificate
-    Set certificate = Application.ObtainNewCertificate(arguments)
+    Dim certificateDictionary As UANodeIdPkiCertificateDictionary
+    Set certificateDictionary = Application.ObtainNewCertificatePack(gdsEndpointDescriptor)
     If Err.Number <> 0 Then
         OutputText = OutputText & "*** Failure: " & Err.Source & ": " & Err.Description & vbCrLf
         Exit Sub
@@ -102,10 +99,14 @@ Private Sub IEasyUAClientServerApplication_ObtainNewCertificate_Main_Command_Cli
     On Error GoTo 0
 
     ' Display results
-    OutputText = OutputText & "Certificate: " & certificate & vbCrLf
+    Dim Pair : For Each Pair In certificateDictionary
+        OutputText = OutputText & vbCrLf
+        OutputText = OutputText & "Certificate type Id: " & Pair.Key & vbCrLf
+        OutputText = OutputText & "Certificate: " & Pair.Value & vbCrLf
+    Next
 End Sub
 
-REM #endregion Example _IEasyUAClientServerApplication.ObtainNewCertificate.Main
+REM #endregion Example _IEasyUAClientServerApplication.ObtainNewCertificatePack.Main
 
 REM #region Example _IEasyUAClientServerApplication.RefreshTrustLists.Main
 REM Shows how to refresh own certificate stores using current trust lists

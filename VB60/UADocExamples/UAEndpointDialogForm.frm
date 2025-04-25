@@ -35,7 +35,7 @@ Attribute VB_Exposed = False
 Rem $Header: $
 Rem Copyright (c) CODE Consulting and Development, s.r.o., Plzen. All rights reserved.
 
-Option Explicit On
+Option Explicit
 
 REM #region Example ShowDialog.Main
 REM This example shows how to let the user browse for an OPC-UA server endpoint.
