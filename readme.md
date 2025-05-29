@@ -9,7 +9,7 @@ Useful links:
 * [OPC client and subscriber examples in the documentation](https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html).
 * [OPC client and subscriber examples in Visual Basic on GitHub](https://github.com/OPCLabs/Examples-OPCStudio-VB).
 * [OPC Studio Setup program](https://www.opclabs.com/download)
-* [Getting Started under COM](https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/User%27s%20Guide%20and%20Reference-OPC%20Studio/webframe.html#Getting%20Started%20with%20QuickOPC%20under%20COM.html).
+* [Getting Started with QuickOPC under COM](https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/User%27s%20Guide%20and%20Reference-OPC%20Studio/webframe.html#Getting%20Started%20with%20QuickOPC%20under%20COM.html).
 * [Making a first QuickOPC COM application in VB6](https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/User%27s%20Guide%20and%20Reference-OPC%20Studio/webframe.html#Making%20a%20first%20QuickOPC%20COM%20application.html).
 * [Making a first QuickOPC UA application in VB6](https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/User%27s%20Guide%20and%20Reference-OPC%20Studio/webframe.html#Making%20a%20first%20QuickOPC%20UA%20application.html).
 * [OPC Labs Knowledge Base](https://kb.opclabs.com).
